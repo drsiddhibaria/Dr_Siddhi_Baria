@@ -1,0 +1,897 @@
+/* =========================
+   🎨 COLOR PALETTE
+========================= */
+:root {
+  --rose: #e9b8b0;
+  --rose-dark: #d79c93;
+  --taupe: #bfaaa3;
+  --gray: #6b6b6b;
+  --beige: #f7f5f3;
+  --white: #ffffff;
+}
+
+/* =========================
+   🔄 RESET & BASE
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Libre Baskerville", serif;
+}
+
+body {
+  background: var(--white);
+  color: var(--gray);
+  line-height: 1.6;
+}
+
+/* =========================
+   🌐 NAVBAR
+========================= */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  transition: background 0.3s, box-shadow 0.3s;
+  z-index: 1000;
+}
+
+.navbar.scrolled {
+  background: var(--white);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.logo {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: var(--taupe);
+}
+
+/* Nav Links */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.nav-links li a {
+  font-family: "Milkyway DEMO";
+  text-decoration: none;
+  color: var(--gray);
+  transition: 0.3s;
+}
+.nav-links li a:hover {
+  color: var(--rose-dark);
+}
+
+/* Buttons inside Navbar */
+.btn-rose {
+  background: var(--rose);
+  color: var(--white);
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  transition: 0.3s ease;
+}
+.btn-rose:hover {
+  background: var(--rose-dark);
+}
+
+/* Navbar button special states */
+.navbar .btn-rose {
+  border: 2px solid var(--rose);
+  color: var(--white);
+}
+.navbar .btn-rose:hover {
+  background: var(--rose-dark);
+  color: var(--white);
+}
+.navbar.scrolled .btn-rose {
+  background: var(--rose);
+  border: 2px solid var(--rose);
+}
+.navbar.scrolled .btn-rose:hover {
+  background: var(--rose-dark);
+  border-color: var(--rose-dark);
+  color: var(--white);
+}
+
+/* =========================
+   🍀 HERO
+========================= */
+.hero {
+  height: 120vh;
+  background: url("images/bgim.jpeg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+}
+.overlay {
+  padding: 2rem;
+  border-radius: 12px;
+}
+.text-1 {
+  font-size: 2rem;
+  color: var(--white);
+}
+.text-2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--rose);
+}
+
+/* =========================
+   📖 ABOUT
+========================= */
+.about {
+  display: flex;
+  gap: 2rem;
+  padding: 4rem 10%;
+  align-items: center;
+}
+.about-img {
+  flex: 1;
+  background: url("images/st3.jpeg") center/cover;
+  border-radius: 30% 30% 0 0;
+  height: 550px;
+}
+.about-text {
+  flex: 1;
+}
+.about-text h5 {
+  color: var(--taupe);
+  letter-spacing: 2px;
+}
+.about-text h2 {
+  font-size: 2rem;
+  color: var(--rose-dark);
+}
+.about-text h4 {
+  font-weight: 300;
+  color: var(--gray);
+  margin-bottom: 1rem;
+}
+.about-text p {
+  margin-bottom: 1.5rem;
+}
+
+/* =========================
+   💼 SERVICES
+========================= */
+.services {
+  padding: 4rem 10%;
+  background: var(--beige);
+  text-align: center;
+}
+.services h3 {
+  color: var(--taupe);
+  font-size: 1.5rem;
+}
+.subtitle {
+  color: var(--gray);
+  margin-bottom: 2rem;
+}
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+.service-card {
+  background: var(--white);
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+.service-card .icon {
+  width: 60px;
+  height: 60px;
+  background: var(--rose);
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  font-size: 1.5rem;
+}
+.learn-more {
+  display: inline-block;
+  margin-top: 1rem;
+  color: var(--rose-dark);
+  text-decoration: none;
+}
+
+/* =========================
+   🌟 FEATURES
+========================= */
+.features {
+  display: flex;
+  gap: 2rem;
+  padding: 4rem 10%;
+  align-items: center;
+}
+.features-text {
+  flex: 1;
+}
+.features-text h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--taupe);
+}
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.feature-item i {
+  font-size: 1.2rem;
+  color: var(--rose-dark);
+}
+.divider {
+  height: 1px;
+  background: var(--beige);
+  margin: 0.5rem 0;
+}
+.features-img {
+  flex: 1;
+  background: url("images/st4.jpeg") center/cover;
+  border-radius: 30% 30% 0 0;
+  height: 550px;
+}
+
+/* =========================
+   ⭐ REVIEWS
+========================= */
+.reviews {
+  padding: 4rem 10%;
+  text-align: center;
+}
+.review-grid {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+.review-card {
+  background: var(--beige);
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  max-width: 300px;
+}
+
+/* =========================
+   📞 CONTACT & APPOINTMENT
+========================= */
+.contact-container {
+  display: flex;
+  gap: 2rem;
+  padding: 4rem 10%;
+  background: linear-gradient(135deg, var(--taupe), var(--rose));
+  color: var(--white);
+}
+.contact,
+.appointment-section {
+  flex: 1;
+  padding: 2rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(6px);
+  animation: fadeUp 1s ease forwards;
+  transform: translateY(50px);
+  opacity: 0;
+}
+.contact {
+  animation-delay: 0.2s;
+}
+.appointment-section {
+  animation-delay: 0.4s;
+}
+.contact h3,
+.appointment-section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.contact-info p {
+  margin: 0.6rem 0;
+}
+.contact-info i {
+  margin-right: 0.5rem;
+}
+
+/* Form */
+form {
+  background: var(--rose);
+  padding: 2rem;
+  border-radius: 16px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid var(--taupe);
+  border-radius: 8px;
+  background: var(--beige);
+  font-size: 1rem;
+  color: var(--gray);
+  margin-bottom: 1rem;
+  transition: 0.3s ease;
+}
+form input:focus,
+form textarea:focus {
+  background: var(--white);
+  border-color: var(--rose-dark);
+  outline: none;
+  box-shadow: 0 0 6px rgba(215, 156, 147, 0.6);
+}
+form button {
+  width: 100%;
+  padding: 1rem;
+  background: var(--rose-dark);
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  color: var(--white);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+form button:hover {
+  background: var(--taupe);
+}
+
+/* Success message */
+.success-message {
+  display: none;
+  margin-top: 15px;
+  padding: 12px 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--gray);
+  background: var(--beige);
+  border: 2px solid var(--rose-dark);
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease-in-out;
+}
+
+/* Form rows */
+.form-row {
+  display: flex;
+  gap: 20px;
+}
+.form-row .form-group {
+  flex: 1 1 50%;
+}
+
+/* Hover cards */
+.contact:hover,
+.appointment-section:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Keyframes */
+@keyframes fadeUp {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* =========================
+   📝 date
+========================= */
+
+/* =========================
+   📝 CUSTOM SELECT
+========================= */
+.select {
+  width: 100%;
+  position: relative;
+  font-size: 15px;
+  color: var(--gray);
+  cursor: pointer;
+}
+.selected {
+  background: var(--beige);
+  border: 1px solid var(--taupe);
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.arrow {
+  height: 12px;
+  width: 20px;
+  fill: var(--rose-dark);
+  transition: 0.3s;
+}
+.options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--taupe);
+  border-radius: 8px;
+  background: var(--white);
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.3s;
+  z-index: 50;
+}
+.select:hover .options {
+  opacity: 1;
+  pointer-events: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.select:hover .selected .arrow {
+  transform: rotate(180deg);
+}
+.option {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  color: var(--gray);
+  border-radius: 5px;
+  transition: 0.2s;
+  display: flex; /* Add this */
+  justify-content: center; /* Horizontal center */
+  align-items: center; /* Vertical center */
+  text-align: center;
+}
+.option:hover {
+  background: var(--rose);
+  color: var(--white);
+}
+.options input[type="radio"] {
+  display: none;
+}
+.options label::before {
+  content: attr(data-txt);
+}
+
+/* Dynamic values */
+.select:has(#gender-default:checked) .selected::before {
+  content: attr(data-default);
+}
+.select:has(#male:checked) .selected::before {
+  content: attr(data-male);
+}
+.select:has(#female:checked) .selected::before {
+  content: attr(data-female);
+}
+.select:has(#other:checked) .selected::before {
+  content: attr(data-other);
+}
+.select:has(#time-default:checked) .selected::before {
+  content: attr(data-default);
+}
+.select:has(#t1:checked) .selected::before {
+  content: attr(data-t1);
+}
+.select:has(#t2:checked) .selected::before {
+  content: attr(data-t2);
+}
+.select:has(#t3:checked) .selected::before {
+  content: attr(data-t3);
+}
+.select:has(#t4:checked) .selected::before {
+  content: attr(data-t4);
+}
+
+/* =========================
+   ⏳ PRELOADER
+========================= */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+#preloader.fade-out {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s ease;
+}
+.loading-wave {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.loading-bar {
+  width: 20px;
+  height: 10px;
+  margin: 0 5px;
+  background: var(--rose);
+  border-radius: 5px;
+  animation: loading-wave-animation 1s ease-in-out infinite;
+}
+.loading-bar:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.loading-bar:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.loading-bar:nth-child(4) {
+  animation-delay: 0.3s;
+}
+@keyframes loading-wave-animation {
+  0% {
+    height: 10px;
+  }
+  50% {
+    height: 50px;
+  }
+  100% {
+    height: 10px;
+  }
+}
+
+/* =========================
+   🔗 Review Section
+========================= */
+
+.review-section {
+  text-align: center;
+  padding: 60px 20px;
+  background: #fff;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+}
+
+.review-slider {
+  overflow: hidden;
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.review-track {
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+  justify-content: space-evenly;
+}
+
+.review-card {
+  flex: 0 0 calc(33.333% - 20px);
+  margin: 0 10px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.review-card img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.review-card h3 {
+  margin: 10px 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.review-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Tablet: 2 cards */
+@media (max-width: 992px) {
+  .review-card {
+    flex: 0 0 calc(50% - 20px);
+  }
+}
+
+/* Mobile: 1 card */
+@media (max-width: 576px) {
+  .review-card {
+    flex: 0 0 100%;
+    margin: 0;
+  }
+}
+
+/* =========================
+   🔗 FOOTER
+========================= */
+.footer {
+  background: var(--beige);
+  padding: 1.5rem 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.footer p {
+  font-size: 0.9rem;
+  color: var(--gray);
+}
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+.social-icons a {
+  font-size: 1.2rem;
+  color: var(--taupe);
+  transition: 0.3s;
+}
+.social-icons a:hover {
+  color: var(--rose-dark);
+}
+
+/* =========================
+   🔗 SOCIAL CARDS
+========================= */
+.card {
+  width: fit-content;
+  height: fit-content;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  gap: 20px;
+}
+.socialContainer {
+  width: 52px;
+  height: 52px;
+  background: #bfaaa3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+.containerOne:hover {
+  background: #d62976;
+  transform: scale(1.2);
+}
+.containerTwo:hover {
+  background: #00acee;
+  transform: scale(1.2);
+}
+.containerThree:hover {
+  background: #0072b1;
+  transform: scale(1.2);
+}
+.containerFour:hover {
+  background: #128c7e;
+  transform: scale(1.2);
+}
+.socialContainer:active {
+  transform: scale(0.9);
+}
+.socialSvg {
+  width: 17px;
+}
+.socialSvg path {
+  fill: #fff;
+}
+.socialContainer:hover .socialSvg {
+  animation: slide-in-top 0.3s both;
+}
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY;
+    opacity: 1;
+  }
+}
+
+/* =========================
+   📱 MOBILE RESPONSIVE
+========================= */
+
+/* Show menu toggle only on mobile */
+.menu-toggle {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  /* Navbar adjustments */
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: var(--white);
+    flex-direction: column;
+    width: 220px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 12px 12px;
+    padding: 1rem;
+    z-index: 999;
+  }
+  .nav-links li {
+    margin: 0.5rem 0;
+  }
+
+  /* Show toggle button */
+  .menu-toggle {
+    display: block;
+    font-size: 1.8rem;
+    color: var(--rose-dark);
+    cursor: pointer;
+  }
+
+  /* When active (JS will add .active) */
+  .nav-links.active {
+    display: flex;
+  }
+
+  /* Hero text */
+  .text-1 {
+    font-size: 1.5rem;
+  }
+  .text-2 {
+    font-size: 2rem;
+  }
+
+  /* About section stack */
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-img {
+    width: 100%;
+    height: 300px;
+  }
+
+  /* Features stack */
+  .features {
+    flex-direction: column;
+    text-align: center;
+  }
+  .features-img {
+    width: 100%;
+    height: 300px;
+  }
+
+  /* Contact & Appointment stack */
+  .contact-container {
+    flex-direction: column;
+  }
+
+  /* Testimonials - single card visible */
+  .testimonial {
+    flex: 0 0 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Extra small screen tweaks */
+  .hero {
+    height: 100vh;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  .overlay {
+    padding: 1rem;
+  }
+  .text-1 {
+    font-size: 1.2rem;
+  }
+  .text-2 {
+    font-size: 1.5rem;
+  }
+  .services {
+    padding: 2rem 5%;
+  }
+  .contact-container {
+    padding: 2rem 5%;
+  }
+  form {
+    padding: 1rem;
+  }
+}
+@media (max-width: 576px) {
+  /* Appointment section container */
+  .appointment-section {
+    padding: 1.5rem 1rem;
+  }
+
+  /* Stack form rows */
+  .appointment-form .form-row {
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+
+  /* Inputs & selects full width, same style */
+  .appointment-form .form-group input,
+  .appointment-form .form-group select {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid #ccc; /* same border as input */
+    border-radius: 10px; /* same rounded corners */
+    font-size: 1rem;
+    background: #fff; /* white background */
+    color: #333; /* text color */
+    box-sizing: border-box;
+    appearance: none; /* remove native style */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+
+  /* Add custom dropdown arrow */
+  .appointment-form .form-group select {
+    background-image: url("data:image/svg+xml;utf8,<svg fill='%236b6b6b' height='18' viewBox='0 0 24 24' width='18' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 18px;
+    padding-right: 40px; /* space for arrow */
+    cursor: pointer;
+  }
+
+  /* Submit button full width */
+  .btn-submit {
+    width: 100%;
+    padding: 14px;
+    font-size: 1rem;
+    border-radius: 10px;
+  }
+
+  /* Success message */
+  .success-message {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    text-align: center;
+  }
+}
+
+/* Only apply on small screens */
+@media screen and (max-width: 768px) {
+  .contact-container {
+    transform: scale(0.9); /* start slightly zoomed out */
+    transform-origin: top center;
+    transition: transform 0.5s ease;
+  }
+
+  /* Animate to full size after page loads */
+  body.loaded .contact-container {
+    transform: scale(1);
+  }
+}

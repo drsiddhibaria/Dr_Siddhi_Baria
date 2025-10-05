@@ -1,0 +1,2496 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doctor Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="logo">Dr. Macey Cartrite</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#appointment" class="btn-rose">Book Appointment</a></li>
+        </ul>
+      </nav>
+
+      <!-- 👇 Add this here -->
+      <div class="menu-toggle">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="overlay">
+        <div class="text-1">We are</div>
+        <div class="text-2">Caring for You</div>
+      </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="about">
+      <div class="about-img"></div>
+      <div class="about-text">
+        <h5>ABOUT ME</h5>
+        <h2>DR. MACEY CARTRITE</h2>
+        <h4>DDS, MD</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit,
+          libero vel tincidunt luctus, nulla est suscipit nunc, eu malesuada
+          magna urna ut eros.
+        </p>
+        <a href="#" class="btn-rose">Learn More</a>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="services">
+      <h3>MY SERVICES</h3>
+      <p class="subtitle">Comprehensive care tailored for you</p>
+      <div class="service-grid">
+        <div class="service-card">
+          <div class="icon"><i class="fa-solid fa-tooth"></i></div>
+          <h4>Dental Care</h4>
+          <p>
+            Professional treatments for healthy teeth and a confident smile.
+          </p>
+          <a href="#" class="learn-more">Learn More</a>
+        </div>
+        <div class="service-card">
+          <div class="icon"><i class="fa-solid fa-stethoscope"></i></div>
+          <h4>General Checkups</h4>
+          <p>Comprehensive health checkups for long-term wellness.</p>
+          <a href="#" class="learn-more">Learn More</a>
+        </div>
+        <div class="service-card">
+          <div class="icon"><i class="fa-solid fa-heart"></i></div>
+          <h4>Patient Care</h4>
+          <p>Compassionate and safe patient-focused medical treatments.</p>
+          <a href="#" class="learn-more">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feature Section -->
+    <section id="features" class="features">
+      <div class="features-text">
+        <h2>WE CAN SOOTHE YOUR ANXIETY & CREATE THE BEST PATIENT EXPERIENCE</h2>
+        <div class="feature-item">
+          <i class="fa-solid fa-user-group"></i>
+          <p>When you become our patient, you become our family.</p>
+        </div>
+        <div class="divider"></div>
+        <div class="feature-item">
+          <i class="fa-solid fa-briefcase-medical"></i>
+          <p>20 years experience, over 20,000 patients treated.</p>
+        </div>
+        <div class="divider"></div>
+        <div class="feature-item">
+          <i class="fa-solid fa-shield-heart"></i>
+          <p>We prioritize safety and exceptional patient care.</p>
+        </div>
+        <a href="#appointment" class="btn-rose">Book Your Appointment</a>
+      </div>
+      <div class="features-img"></div>
+    </section>
+
+    <!-- Reviews -->
+      <section class="reviews">
+        <h3>WHAT OUR PATIENTS SAY</h3>
+        <div class="review-grid">
+        <div class="review-card">
+          “Amazing doctor, very caring and professional.”
+        </div>
+        <div class="review-card">
+          “She made me feel at ease during my treatment.”
+        </div>
+        <div class="review-card">
+          “Best experience I’ve ever had with a doctor.”
+        </div>
+      </section>
+
+       <!-- Contact & Appointment -->
+       <section id="contact" class="contact">
+       <div class="contact-info">
+        <h3>CONTACT US</h3>
+        <p>
+          <i class="fa-solid fa-location-dot"></i> 1039 I-30 Frontage Rd #107,
+          Rockwall, TX 75087
+        </p>
+        <p><i class="fa-solid fa-phone"></i> +91 9833261451</p>
+        <p><i class="fa-solid fa-clock"></i> Mon–Fri: 9am – 6pm</p>
+        <p><i class="fa-solid fa-clock"></i> Sat: 10am – 2pm</p>
+        <p><i class="fa-solid fa-clock"></i> Sun: Closed</p>
+        <!-- From Uiverse.io by elisapi -->
+        <div class="card">
+          <a class="socialContainer containerOne" href="#">
+            <svg viewBox="0 0 16 16" class="socialSvg instagramSvg">
+              <path
+                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+              ></path>
+            </svg>
+          </a>
+
+          <a class="socialContainer containerTwo" href="#">
+            <svg viewBox="0 0 16 16" class="socialSvg twitterSvg">
+              <path
+                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+              ></path>
+            </svg>
+          </a>
+
+          <a class="socialContainer containerThree" href="#">
+            <svg viewBox="0 0 448 512" class="socialSvg linkdinSvg">
+              <path
+                d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+              ></path>
+            </svg>
+          </a>
+
+          <a class="socialContainer containerFour" href="#">
+            <svg viewBox="0 0 16 16" class="socialSvg whatsappSvg">
+              <path
+                d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+       
+      <div id="appointment" class="appointment-section">
+  <h3>BOOK AN APPOINTMENT</h3>
+  <form>
+    <div class="form-row">
+      <input type="text" placeholder="First Name" required />
+      <input type="text" placeholder="Last Name" required />
+    </div>
+    <div class="form-row">
+      <input type="email" placeholder="Email Address" required />
+      <input type="tel" placeholder="Phone Number" required />
+    </div>
+    <div class="form-row">
+      <input type="date" required />
+      
+      <div class="select">
+  <div
+    class="selected"
+    data-default="Select a Time Slot"
+    data-nine="9:00 AM"
+    data-nine-thirty="9:30 AM"
+    data-ten="10:00 AM"
+    data-ten-thirty="10:30 AM"
+    data-eleven="11:00 AM"
+    data-eleven-thirty="11:30 AM"
+    data-twelve="12:00 PM"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      height="1em"
+      viewBox="0 0 512 512"
+      class="arrow"
+    >
+      <path
+        d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+      ></path>
+    </svg>
+  </div>
+
+  <div class="options">
+    <div>
+      <input id="default" name="slot" type="radio" checked />
+      <label class="option" for="default" data-txt="Select a Time Slot"></label>
+    </div>
+    <div>
+      <input id="nine" name="slot" type="radio" />
+      <label class="option" for="nine" data-txt="9:00 AM"></label>
+    </div>
+    <div>
+      <input id="nine-thirty" name="slot" type="radio" />
+      <label class="option" for="nine-thirty" data-txt="9:30 AM"></label>
+    </div>
+    <div>
+      <input id="ten" name="slot" type="radio" />
+      <label class="option" for="ten" data-txt="10:00 AM"></label>
+    </div>
+    <div>
+      <input id="ten-thirty" name="slot" type="radio" />
+      <label class="option" for="ten-thirty" data-txt="10:30 AM"></label>
+    </div>
+    <div>
+      <input id="eleven" name="slot" type="radio" />
+      <label class="option" for="eleven" data-txt="11:00 AM"></label>
+    </div>
+    <div>
+      <input id="eleven-thirty" name="slot" type="radio" />
+      <label class="option" for="eleven-thirty" data-txt="11:30 AM"></label>
+    </div>
+    <div>
+      <input id="twelve" name="slot" type="radio" />
+      <label class="option" for="twelve" data-txt="12:00 PM"></label>
+    </div>
+  </div>
+</div>
+
+    </div>
+    <textarea placeholder="Message"></textarea>
+    <button type="submit" class="btn-rose">Book Your Appointment</button>
+  </form>
+</div>
+
+ 
+
+      </section>
+    
+
+     <!-- Footer -->
+      <footer class="footer">
+      <p>© 2025 Dr. Macey Cartrite. All Rights Reserved.</p>
+     </footer>
+
+     <!-- GSAP + ScrollTrigger -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+     <script>
+      gsap.registerPlugin(ScrollTrigger);
+
+      window.addEventListener("scroll", function () {
+        const navbar = document.querySelector(".navbar");
+        if (window.scrollY > 50) {
+          navbar.classList.add("scrolled");
+        } else {
+          navbar.classList.remove("scrolled");
+        }
+      });
+
+      // Hero animation
+      gsap.from(".text-1", { y: 50, opacity: 0, duration: 1 });
+      gsap.from(".text-2", { y: 50, opacity: 0, duration: 1, delay: 0.5 });
+
+      // About
+      gsap.from(".about-img", {
+        scrollTrigger: ".about",
+        x: -100,
+        opacity: 0,
+        duration: 1,
+      });
+      gsap.from(".about-text", {
+        scrollTrigger: ".about",
+        x: 100,
+        opacity: 0,
+        duration: 1,
+      });
+
+      // Services
+      gsap.from(".service-card", {
+        scrollTrigger: ".services",
+        y: 100,
+        opacity: 0,
+        stagger: 0.2,
+        duration: 1,
+      });
+
+      // Features
+      gsap.from(".features-text", {
+        scrollTrigger: ".features",
+        x: -100,
+        opacity: 0,
+        duration: 1,
+      });
+      gsap.from(".features-img", {
+        scrollTrigger: ".features",
+        x: 100,
+        opacity: 0,
+        duration: 1,
+      });
+
+      // Reviews
+      gsap.from(".review-card", {
+        scrollTrigger: ".reviews",
+        scale: 0.8,
+        opacity: 0,
+        stagger: 0.2,
+        duration: 1,
+      });
+
+      // Contact
+      gsap.from(".contact-info", {
+        scrollTrigger: ".contact",
+        x: -100,
+        opacity: 0,
+        duration: 1,
+      });
+      gsap.from(".appointment-form", {
+        scrollTrigger: ".contact",
+        x: 100,
+        opacity: 0,
+        duration: 1,
+      });
+
+      // Smooth scroll
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          document
+            .querySelector(this.getAttribute("href"))
+            .scrollIntoView({ behavior: "smooth" });
+        });
+      });
+
+      const menuToggle = document.querySelector(".menu-toggle");
+      const navLinks = document.querySelector(".nav-links");
+      menuToggle.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+      });
+
+      const cards = document.querySelectorAll(".service-card");
+
+      cards.forEach((card) => {
+        card.addEventListener("mouseenter", () => {
+          gsap.to(card, {
+            scale: 1.05,
+            boxShadow: "0 12px 25px rgba(0,0,0,0.15)",
+            duration: 0.3,
+            ease: "power2.out",
+          });
+
+          // Animate icon bounce
+          gsap.fromTo(
+            card.querySelector(".icon"),
+            { y: 0 },
+            { y: -10, duration: 0.3, ease: "bounce.out" }
+          );
+        });
+
+        card.addEventListener("mouseleave", () => {
+          gsap.to(card, {
+            scale: 1,
+            boxShadow: "0 4px 10px rgba(0,0,0,0.05)",
+            duration: 0.3,
+            ease: "power2.inOut",
+          });
+
+          gsap.to(card.querySelector(".icon"), {
+            y: 0,
+            duration: 0.3,
+            ease: "power2.inOut",
+          });
+        });
+      });
+
+      document.addEventListener("DOMContentLoaded", () => {
+  const selectWrapper = document.querySelector(".custom-select");
+  const selectElement = document.querySelector("#timeSelect");
+
+  // When select is clicked, toggle arrow rotation
+  selectElement.addEventListener("mousedown", () => {
+    selectWrapper.classList.add("open");
+  });
+
+  // When select loses focus, reset arrow
+  selectElement.addEventListener("blur", () => {
+    selectWrapper.classList.remove("open");
+  });
+});
+
+     </script>
+  </body>
+</html>
+
+
+/* Color Palette */
+:root {
+  --rose: #e9b8b0;
+  --rose-dark: #d79c93;
+  --taupe: #bfaaa3;
+  --gray: #6b6b6b;
+  --beige: #f7f5f3;
+  --white: #ffffff;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+body {
+  background: var(--white);
+  color: var(--gray);
+  line-height: 1.6;
+}
+
+/* Navbar */
+/* Navbar default: transparent */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: transparent;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+.navbar.scrolled {
+  background: var(--white);
+  /* solid color when scrolled */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: var(--taupe);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: var(--gray);
+  transition: 0.3s;
+}
+
+.nav-links li a:hover {
+  color: var(--rose-dark);
+}
+
+/* Default button style */
+.btn-rose {
+  background: var(--rose);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s ease;
+  display: inline-block;
+}
+
+/* General hover (outside navbar usage) */
+.btn-rose:hover {
+  background: var(--rose-dark);
+  color: white; /* Keep strong contrast */
+}
+
+/* Special styles when inside navbar */
+.navbar .btn-rose {
+  border: 2px solid var(--rose);
+  color: var(--white);
+}
+
+/* Hover effect for navbar button (transparent state) */
+.navbar .btn-rose:hover {
+  background: var(--rose-dark);
+  color: white;
+}
+
+/* After scroll (solid navbar state) */
+.navbar.scrolled .btn-rose {
+  background: var(--rose);
+  border: 2px solid var(--rose);
+  color: white;
+}
+
+/* Hover effect in scrolled state */
+.navbar.scrolled .btn-rose:hover {
+  background: var(--rose-dark);
+  border-color: var(--rose-dark);
+  color: white;
+}
+
+/* Hero */
+.hero {
+  height: 120vh;
+  background: url("images/bgim.jpeg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.overlay {
+  justify-content: left;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.text-1 {
+  justify-content: left;
+  font-size: 2rem;
+  color: var(--white);
+}
+
+.text-2 {
+  justify-content: left;
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--rose);
+}
+
+/* About */
+.about {
+  display: flex;
+  gap: 2rem;
+  padding: 4rem 10%;
+  align-items: center;
+}
+
+.about-img {
+  flex: 1;
+  background: url("images/st3.jpg") center/cover;
+  border-radius: 30% 30% 0 0;
+  height: 600px;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h5 {
+  color: var(--taupe);
+  letter-spacing: 2px;
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  color: var(--rose-dark);
+}
+.about-text h4 {
+  font-weight: 300;
+  color: var(--gray);
+  margin-bottom: 1rem;
+}
+.about-text p {
+  margin-bottom: 1.5rem;
+}
+
+/* Services */
+.services {
+  padding: 4rem 10%;
+  background: var(--beige);
+  text-align: center;
+}
+
+.services h3 {
+  color: var(--taupe);
+  font-size: 1.5rem;
+}
+
+.subtitle {
+  color: var(--gray);
+  margin-bottom: 2rem;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.service-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.service-card .icon {
+  background: var(--rose);
+  color: white;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  font-size: 1.5rem;
+}
+
+.learn-more {
+  display: inline-block;
+  margin-top: 1rem;
+  color: var(--rose-dark);
+  text-decoration: none;
+}
+
+/* Features */
+.features {
+  display: flex;
+  gap: 2rem;
+  padding: 4rem 10%;
+  align-items: center;
+}
+
+.features-text {
+  flex: 1;
+}
+
+.features-text h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--taupe);
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.feature-item i {
+  color: var(--rose-dark);
+  font-size: 1.2rem;
+}
+
+.divider {
+  height: 1px;
+  background: var(--beige);
+  margin: 0.5rem 0;
+}
+
+.features-img {
+  flex: 1;
+  background: url("images/st4.jpg") center/cover;
+  border-radius: 30% 30% 0 0;
+  height: 400px;
+}
+
+/* Reviews */
+.reviews {
+  padding: 4rem 10%;
+  text-align: center;
+}
+
+.review-grid {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.review-card {
+  background: var(--beige);
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  max-width: 300px;
+}
+
+/* Contact */
+.contact {
+  display: flex;
+  gap: 2rem;
+  padding: 4rem 10%;
+  background: linear-gradient(135deg, var(--taupe), var(--rose));
+  color: white;
+}
+
+.contact-info {
+  flex: 1;
+}
+
+.contact-info p {
+  margin: 0.5rem 0;
+}
+
+.contact-info i {
+  margin-right: 0.5rem;
+  color: var(--white);
+}
+
+.form-row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+form textarea {
+  height: 120px;
+  resize: none;
+}
+
+form button {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+/* Footer */
+.footer {
+  background: var(--beige);
+  padding: 1.5rem 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.footer p {
+  color: var(--gray);
+  font-size: 0.9rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icons a {
+  color: var(--taupe);
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: var(--rose-dark);
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+/* From Uiverse.io by elisapi */
+.card {
+  width: fit-content;
+  height: fit-content;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  gap: 20px;
+}
+
+/* for all social containers*/
+.socialContainer {
+  width: 52px;
+  height: 52px;
+  background-color: #bfaaa3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition-duration: 0.3s;
+  border-radius: 30px;
+}
+/* instagram*/
+.containerOne:hover {
+  background-color: #d62976;
+  transition-duration: 0.3s;
+  transform: scale(1.2);
+}
+
+/* twitter*/
+.containerTwo:hover {
+  background-color: #00acee;
+  transition-duration: 0.3s;
+  transform: scale(1.2);
+}
+
+/* linkdin*/
+.containerThree:hover {
+  background-color: #0072b1;
+  transition-duration: 0.3s;
+  transform: scale(1.2);
+}
+/* Whatsapp*/
+.containerFour:hover {
+  background-color: #128c7e;
+  transition-duration: 0.3s;
+  transform: scale(1.2);
+}
+
+.socialContainer:active {
+  transform: scale(0.9);
+  transition-duration: 0.3s;
+}
+
+.socialSvg {
+  width: 17px;
+}
+.socialSvg path {
+  fill: rgb(255, 255, 255);
+}
+
+.socialContainer:hover .socialSvg {
+  animation: slide-in-top 0.3s both;
+}
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Mobile-first responsive adjustments */
+@media (max-width: 992px) {
+  .about,
+  .features,
+  .contact {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-img,
+  .features-img {
+    height: 300px;
+    border-radius: 12px;
+  }
+
+  .service-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Navbar mobile */
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 70%;
+    background: var(--white);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: right 0.3s ease;
+    gap: 2rem;
+  }
+
+  .nav-links.active {
+    right: 0;
+  }
+
+  .navbar {
+    padding: 1rem;
+  }
+
+  .navbar .menu-toggle {
+    display: block;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--taupe);
+  }
+
+  /* Hide normal nav links until toggled */
+  nav ul {
+    display: none;
+  }
+  nav ul.nav-links.active {
+    display: flex;
+  }
+
+  .service-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .review-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-1 {
+    font-size: 1.5rem;
+  }
+  .text-2 {
+    font-size: 2rem;
+  }
+
+  .about-text h2 {
+    font-size: 1.5rem;
+  }
+
+  .features-text h2 {
+    font-size: 1.2rem;
+  }
+}
+
+.menu-toggle {
+  display: none; /* hidden on desktop */
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    font-size: 1.8rem;
+    color: var(--taupe);
+    cursor: pointer;
+  }
+}
+:root {
+  --rose: #e69a9a;
+  --rose-dark: #c97a7a;
+  --taupe: #bfaaa3;
+  --gray: #6b6b6b;
+  --beige: #f8f5f2;
+}
+
+/* Wrapper */
+.select {
+  width: 100%;
+  max-width: 100%;
+  cursor: pointer;
+  position: relative;
+  transition: 300ms;
+  overflow: hidden;
+  font-family: inherit;
+}
+
+/* Selected box (matches inputs) */
+.selected {
+  background-color: #fff;
+  padding: 10px 15px;
+  margin-bottom: 3px;
+  border-radius: 6px;
+  border: 1.5px solid #ccc;
+  position: relative;
+  z-index: 10;
+  font-size: 15px;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 42px;
+}
+
+/* Arrow style */
+.arrow {
+  height: 14px;
+  width: 18px;
+  fill: #333;
+  transition: 300ms;
+}
+
+/* Options dropdown */
+.options {
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  border: 1.5px solid #ccc;
+  background-color: #fff;
+  position: relative;
+  top: -120px;
+  opacity: 0;
+  transition: 300ms;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  z-index: 9;
+}
+
+/* Show on hover */
+.select:hover > .options {
+  opacity: 1;
+  top: 0;
+}
+
+.select:hover > .selected .arrow {
+  transform: rotate(180deg);
+}
+
+/* Each option */
+.option {
+  padding: 10px 12px;
+  transition: 200ms;
+  font-size: 15px;
+  color: #333;
+  border-radius: 4px;
+}
+.option:hover {
+  background-color: #f2f2f2;
+}
+
+/* Hide inputs */
+.options input[type="radio"] {
+  display: none;
+}
+
+.options label {
+  display: inline-block;
+  cursor: pointer;
+}
+.options label::before {
+  content: attr(data-txt);
+}
+
+/* Hide duplicate once selected */
+.options input[type="radio"]:checked + label {
+  display: none;
+}
+
+/* Dynamic selected text */
+.select:has(#default:checked) .selected::before {
+  content: attr(data-default);
+}
+.select:has(#nine:checked) .selected::before {
+  content: attr(data-nine);
+}
+.select:has(#nine-thirty:checked) .selected::before {
+  content: attr(data-nine-thirty);
+}
+.select:has(#ten:checked) .selected::before {
+  content: attr(data-ten);
+}
+.select:has(#ten-thirty:checked) .selected::before {
+  content: attr(data-ten-thirty);
+}
+.select:has(#eleven:checked) .selected::before {
+  content: attr(data-eleven);
+}
+.select:has(#eleven-thirty:checked) .selected::before {
+  content: attr(data-eleven-thirty);
+}
+.select:has(#twelve:checked) .selected::before {
+  content: attr(data-twelve);
+}
+
+
+java
+
+gsap.registerPlugin(ScrollTrigger);
+
+window.addEventListener("scroll", function () {
+  const navbar = document.querySelector(".navbar");
+  if (window.scrollY > 50) {
+    navbar.classList.add("scrolled");
+  } else {
+    navbar.classList.remove("scrolled");
+  }
+});
+
+// Hero animation
+gsap.from(".text-1", { y: 50, opacity: 0, duration: 1 });
+gsap.from(".text-2", { y: 50, opacity: 0, duration: 1, delay: 0.5 });
+
+// About
+gsap.from(".about-img", {
+  scrollTrigger: ".about",
+  x: -100,
+  opacity: 0,
+  duration: 1,
+});
+gsap.from(".about-text", {
+  scrollTrigger: ".about",
+  x: 100,
+  opacity: 0,
+  duration: 1,
+});
+
+// Services
+gsap.from(".service-card", {
+  scrollTrigger: ".services",
+  y: 100,
+  opacity: 0,
+  stagger: 0.2,
+  duration: 1,
+});
+
+// Features
+gsap.from(".features-text", {
+  scrollTrigger: ".features",
+  x: -100,
+  opacity: 0,
+  duration: 1,
+});
+gsap.from(".features-img", {
+  scrollTrigger: ".features",
+  x: 100,
+  opacity: 0,
+  duration: 1,
+});
+
+// Reviews
+gsap.from(".review-card", {
+  scrollTrigger: ".reviews",
+  scale: 0.8,
+  opacity: 0,
+  stagger: 0.2,
+  duration: 1,
+});
+
+// Contact
+gsap.from(".contact-info", {
+  scrollTrigger: ".contact",
+  x: -100,
+  opacity: 0,
+  duration: 1,
+});
+gsap.from(".appointment-form", {
+  scrollTrigger: ".contact",
+  x: 100,
+  opacity: 0,
+  duration: 1,
+});
+
+// Smooth scroll
+document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+  anchor.addEventListener("click", function (e) {
+    e.preventDefault();
+    document
+      .querySelector(this.getAttribute("href"))
+      .scrollIntoView({ behavior: "smooth" });
+  });
+});
+
+const menuToggle = document.querySelector(".menu-toggle");
+const navLinks = document.querySelector(".nav-links");
+menuToggle.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+});
+
+const cards = document.querySelectorAll(".service-card");
+
+cards.forEach((card) => {
+  card.addEventListener("mouseenter", () => {
+    gsap.to(card, {
+      scale: 1.05,
+      boxShadow: "0 12px 25px rgba(0,0,0,0.15)",
+      duration: 0.3,
+      ease: "power2.out",
+    });
+
+    // Animate icon bounce
+    gsap.fromTo(
+      card.querySelector(".icon"),
+      { y: 0 },
+      { y: -10, duration: 0.3, ease: "bounce.out" }
+    );
+  });
+
+  card.addEventListener("mouseleave", () => {
+    gsap.to(card, {
+      scale: 1,
+      boxShadow: "0 4px 10px rgba(0,0,0,0.05)",
+      duration: 0.3,
+      ease: "power2.inOut",
+    });
+
+    gsap.to(card.querySelector(".icon"), {
+      y: 0,
+      duration: 0.3,
+      ease: "power2.inOut",
+    });
+  });
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  const selectWrapper = document.querySelector(".custom-select");
+  const selectElement = document.querySelector("#timeSelect");
+
+  // When select is clicked, toggle arrow rotation
+  selectElement.addEventListener("mousedown", () => {
+    selectWrapper.classList.add("open");
+  });
+
+  // When select loses focus, reset arrow
+  selectElement.addEventListener("blur", () => {
+    selectWrapper.classList.remove("open");
+  });
+});
+
+const form = document.getElementById("appointmentForm");
+const successMsg = document.getElementById("successMessage");
+
+form.addEventListener("submit", function (e) {
+  e.preventDefault(); // stop default redirect
+
+  const formData = new FormData(form);
+
+  fetch(form.action, {
+    method: form.method,
+    body: formData,
+  })
+    .then((response) => response.json())
+    .then(() => {
+      form.reset();
+      successMsg.style.display = "block";
+
+      // GSAP Animation
+      gsap.fromTo(
+        successMsg,
+        { opacity: 0, scale: 0.7, y: 50 },
+        {
+          opacity: 1,
+          scale: 1,
+          y: 0,
+          duration: 0.8,
+          ease: "back.out(1.7)",
+        }
+      );
+
+      gsap.to(successMsg, {
+        boxShadow:
+          "0 0 25px rgba(212,175,55,0.8), 0 0 50px rgba(212,175,55,0.4)",
+        repeat: 1,
+        yoyo: true,
+        duration: 1.5,
+        delay: 0.5,
+      });
+
+      gsap.to(successMsg, {
+        opacity: 0,
+        y: -40,
+        duration: 1,
+        delay: 4,
+        ease: "power2.inOut",
+        onComplete: () => {
+          successMsg.style.display = "none";
+        },
+      });
+    })
+    .catch(() => {
+      alert("❌ Something went wrong. Please try again.");
+    });
+});
+
+window.addEventListener("load", () => {
+  const preloader = document.getElementById("preloader");
+  const content = document.getElementById("content");
+
+  setTimeout(() => {
+    preloader.classList.add("fade-out");
+    content.style.display = "block";
+  }, 3000); // fade out after 1s
+});
+
+css
+
+/* Color Palette */
+:root {
+  --rose: #e9b8b0;
+  --rose-dark: #d79c93;
+  --taupe: #bfaaa3;
+  --gray: #6b6b6b;
+  --beige: #f7f5f3;
+  --white: #ffffff;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+body {
+  background: var(--white);
+  color: var(--gray);
+  line-height: 1.6;
+}
+
+/* Navbar */
+/* Navbar default: transparent */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: transparent;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+.navbar.scrolled {
+  background: var(--white);
+  /* solid color when scrolled */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: var(--taupe);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  font-family: "Milkyway DEMO";
+  color: var(--gray);
+  transition: 0.3s;
+}
+
+.nav-links li a:hover {
+  color: var(--rose-dark);
+}
+
+/* Default button style */
+.btn-rose {
+  background: var(--rose);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s ease;
+  display: inline-block;
+}
+
+/* General hover (outside navbar usage) */
+.btn-rose:hover {
+  background: var(--rose-dark);
+  color: white; /* Keep strong contrast */
+}
+
+/* Special styles when inside navbar */
+.navbar .btn-rose {
+  border: 2px solid var(--rose);
+  color: var(--white);
+}
+
+/* Hover effect for navbar button (transparent state) */
+.navbar .btn-rose:hover {
+  background: var(--rose-dark);
+  color: white;
+}
+
+/* After scroll (solid navbar state) */
+.navbar.scrolled .btn-rose {
+  background: var(--rose);
+  border: 2px solid var(--rose);
+  color: white;
+}
+
+/* Hover effect in scrolled state */
+.navbar.scrolled .btn-rose:hover {
+  background: var(--rose-dark);
+  border-color: var(--rose-dark);
+  color: white;
+}
+
+/* Hero */
+.hero {
+  height: 120vh;
+  background: url("images/bgim.jpeg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.overlay {
+  justify-content: left;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.text-1 {
+  justify-content: left;
+  font-size: 2rem;
+  color: var(--white);
+}
+
+.text-2 {
+  justify-content: left;
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--rose);
+}
+
+/* About */
+.about {
+  display: flex;
+  gap: 2rem;
+  padding: 4rem 10%;
+  align-items: center;
+}
+
+.about-img {
+  flex: 1;
+  background: url("images/st3.jpeg") center/cover;
+  border-radius: 30% 30% 0 0;
+  height: 550px;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h5 {
+  color: var(--taupe);
+  letter-spacing: 2px;
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  color: var(--rose-dark);
+}
+.about-text h4 {
+  font-weight: 300;
+  color: var(--gray);
+  margin-bottom: 1rem;
+}
+.about-text p {
+  margin-bottom: 1.5rem;
+}
+
+/* Services */
+.services {
+  padding: 4rem 10%;
+  background: var(--beige);
+  text-align: center;
+}
+
+.services h3 {
+  color: var(--taupe);
+  font-size: 1.5rem;
+}
+
+.subtitle {
+  color: var(--gray);
+  margin-bottom: 2rem;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.service-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.service-card .icon {
+  background: var(--rose);
+  color: white;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  font-size: 1.5rem;
+}
+
+.learn-more {
+  display: inline-block;
+  margin-top: 1rem;
+  color: var(--rose-dark);
+  text-decoration: none;
+}
+
+/* Features */
+.features {
+  display: flex;
+  gap: 2rem;
+  padding: 4rem 10%;
+  align-items: center;
+}
+
+.features-text {
+  flex: 1;
+}
+
+.features-text h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--taupe);
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.feature-item i {
+  color: var(--rose-dark);
+  font-size: 1.2rem;
+}
+
+.divider {
+  height: 1px;
+  background: var(--beige);
+  margin: 0.5rem 0;
+}
+
+.features-img {
+  flex: 1;
+  background: url("images/st4.jpeg") center/cover;
+  border-radius: 30% 30% 0 0;
+  height: 550px;
+}
+
+/* Reviews */
+.reviews {
+  padding: 4rem 10%;
+  text-align: center;
+}
+
+.review-grid {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.review-card {
+  background: var(--beige);
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  max-width: 300px;
+}
+
+/* Contact */
+/* Contact & Appointment Sections */
+/* Parent container for 2-column layout */
+.contact-container {
+  display: flex;
+  gap: 2rem;
+  padding: 4rem 10%;
+  background: linear-gradient(135deg, var(--taupe), var(--rose));
+  color: white;
+}
+
+/* Each section takes 50% */
+.contact,
+.appointment-section {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.1); /* light glass effect */
+  padding: 2rem;
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+}
+
+/* Headings */
+.contact h3,
+.appointment-section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Contact Info */
+.contact-info p {
+  margin: 0.6rem 0;
+}
+
+.contact-info i {
+  margin-right: 0.5rem;
+  color: var(--white);
+}
+
+/* Form layout */
+form {
+  background: var(--rose);
+  padding: 2rem;
+  border-radius: 16px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Labels & inputs */
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid var(--taupe);
+  border-radius: 8px;
+  background: var(--beige);
+  font-size: 1rem;
+  color: var(--gray);
+  margin-bottom: 1rem;
+  transition: 0.3s ease;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: var(--rose-dark);
+  background: var(--white);
+  box-shadow: 0 0 6px rgba(215, 156, 147, 0.6);
+}
+
+/* Submit button */
+form button {
+  width: 100%;
+  padding: 1rem;
+  background: var(--rose-dark);
+  color: var(--white);
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+form button:hover {
+  background: var(--taupe);
+}
+
+/* Success message */
+.success-message {
+  display: none; /* hidden until JS shows it */
+  background: var(--beige); /* soft beige background */
+  border: 2px solid var(--rose-dark); /* subtle rose-dark border */
+  color: var(--gray); /* gray text for readability */
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 12px 16px;
+  margin-top: 15px;
+  border-radius: 12px; /* softer rounded corners */
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease-in-out;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+}
+
+/* Each field takes 50% width on desktop */
+.form-row .form-group {
+  flex: 1 1 50%;
+}
+
+/* On small screens, stack vertically */
+@media (max-width: 768px) {
+  .form-row {
+    flex-direction: column;
+  }
+
+  .form-row .form-group {
+    flex: 1 1 100%;
+  }
+}
+
+/* Footer */
+.footer {
+  background: var(--beige);
+  padding: 1.5rem 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.footer p {
+  color: var(--gray);
+  font-size: 0.9rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icons a {
+  color: var(--taupe);
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: var(--rose-dark);
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+/* From Uiverse.io by elisapi */
+.card {
+  width: fit-content;
+  height: fit-content;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  gap: 20px;
+}
+
+/* for all social containers*/
+.socialContainer {
+  width: 52px;
+  height: 52px;
+  background-color: #bfaaa3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition-duration: 0.3s;
+  border-radius: 30px;
+}
+/* instagram*/
+.containerOne:hover {
+  background-color: #d62976;
+  transition-duration: 0.3s;
+  transform: scale(1.2);
+}
+
+/* twitter*/
+.containerTwo:hover {
+  background-color: #00acee;
+  transition-duration: 0.3s;
+  transform: scale(1.2);
+}
+
+/* linkdin*/
+.containerThree:hover {
+  background-color: #0072b1;
+  transition-duration: 0.3s;
+  transform: scale(1.2);
+}
+/* Whatsapp*/
+.containerFour:hover {
+  background-color: #128c7e;
+  transition-duration: 0.3s;
+  transform: scale(1.2);
+}
+
+.socialContainer:active {
+  transform: scale(0.9);
+  transition-duration: 0.3s;
+}
+
+.socialSvg {
+  width: 17px;
+}
+.socialSvg path {
+  fill: rgb(255, 255, 255);
+}
+
+.socialContainer:hover .socialSvg {
+  animation: slide-in-top 0.3s both;
+}
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Mobile-first responsive adjustments */
+@media (max-width: 992px) {
+  .about,
+  .features,
+  .contact {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-img,
+  .features-img {
+    height: 300px;
+    border-radius: 12px;
+  }
+
+  .service-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-1 {
+    font-size: 1.5rem;
+  }
+  .text-2 {
+    font-size: 2rem;
+  }
+
+  .about-text h2 {
+    font-size: 1.5rem;
+  }
+
+  .features-text h2 {
+    font-size: 1.2rem;
+  }
+}
+
+.menu-toggle {
+  display: none; /* hidden on desktop */
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    font-size: 1.8rem;
+    color: var(--taupe);
+    cursor: pointer;
+  }
+}
+
+/* Animation for both cards */
+.contact,
+.appointment-section {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.1); /* glass effect */
+  padding: 2rem;
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+  transform: translateY(50px);
+  opacity: 0;
+  animation: fadeUp 1s ease forwards;
+}
+
+/* Add slight delay so they come one after another */
+.contact {
+  animation-delay: 0.2s;
+}
+.appointment-section {
+  animation-delay: 0.4s;
+}
+
+/* Keyframes */
+@keyframes fadeUp {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Hover effect (optional – same as contact) */
+.contact:hover,
+.appointment-section:hover {
+  transform: translateY(-10px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* === FIX: Make custom time dropdown full width === */
+
+/* testimonial */
+
+.testimonial-section {
+  background: var(--beige);
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--rose-dark);
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+}
+
+.testimonial-slider {
+  overflow: hidden;
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.testimonial-track {
+  display: flex;
+  animation: scroll 20s linear infinite;
+}
+
+.testimonial {
+  flex: 0 0 33.333%; /* show 3 at a time */
+  background: var(--white);
+  border-radius: 20px;
+  padding: 25px;
+  margin: 0 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.testimonial img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 3px solid var(--rose);
+}
+
+.testimonial h3 {
+  margin: 10px 0;
+  font-size: 1.1rem;
+  color: var(--rose-dark);
+}
+
+.testimonial p {
+  font-size: 0.9rem;
+  color: var(--gray);
+  line-height: 1.4;
+}
+
+/* Continuous scroll keyframes */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  } /* moves by half the track length */
+}
+
+/* ========== NAVBAR MOBILE ========== */
+
+@media (max-width: 768px) {
+  /* Navbar mobile */
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 70%;
+    background: var(--white);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: right 0.3s ease;
+    gap: 2rem;
+  }
+
+  .nav-links.active {
+    right: 0;
+  }
+
+  .navbar {
+    padding: 1rem;
+  }
+
+  .navbar .menu-toggle {
+    display: block;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--taupe);
+  }
+
+  /* Hide normal nav links until toggled */
+  nav ul {
+    display: none;
+  }
+  nav ul.nav-links.active {
+    display: flex;
+  }
+
+  .service-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .review-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact {
+    padding: 2rem;
+  }
+}
+
+/* =========================
+   NAVBAR BASE STYLING
+========================= */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 1rem 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+.navbar.scrolled {
+  background: var(--white);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 0 0 1rem 1rem;
+}
+
+.logo {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: var(--taupe);
+}
+
+/* =========================
+   HAMBURGER MENU
+========================= */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 6px;
+  transition: transform 0.3s ease;
+}
+
+.menu-toggle .bar {
+  width: 28px;
+  height: 3px;
+  background: var(--gray);
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+/* When active → transform into "X" */
+.menu-toggle.active .bar:nth-child(1) {
+  transform: rotate(45deg) translateY(9px);
+}
+.menu-toggle.active .bar:nth-child(2) {
+  opacity: 0;
+}
+.menu-toggle.active .bar:nth-child(3) {
+  transform: rotate(-45deg) translateY(-9px);
+}
+
+/* =========================
+   MOBILE NAV LINKS
+========================= */
+/* =========================
+   NAVBAR MOBILE
+========================= */
+@media (max-width: 992px) {
+  .menu-toggle {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    cursor: pointer;
+    z-index: 1100; /* stays above menu */
+  }
+
+  .menu-toggle .bar {
+    width: 26px;
+    height: 3px;
+    background: var(--gray);
+    border-radius: 2px;
+    transition: all 0.4s ease;
+  }
+
+  /* Animated hamburger → cross */
+  .menu-toggle.active .bar:nth-child(1) {
+    transform: rotate(45deg) translateY(8px);
+  }
+  .menu-toggle.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .menu-toggle.active .bar:nth-child(3) {
+    transform: rotate(-45deg) translateY(-8px);
+  }
+
+  /* Full-screen mobile menu */
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 80%;
+    max-width: 320px;
+    height: 100vh;
+    background: linear-gradient(135deg, var(--rose), var(--taupe));
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    transition: right 0.4s ease;
+    z-index: 1000;
+    box-shadow: -5px 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 1rem 0 0 1rem;
+  }
+
+  .nav-links.active {
+    right: 0;
+  }
+
+  .nav-links li {
+    list-style: none;
+    opacity: 0;
+    transform: translateX(30px);
+    transition: all 0.4s ease;
+  }
+
+  /* When menu is active, animate links in */
+  .nav-links.active li {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  /* Staggered animation */
+  .nav-links.active li:nth-child(1) {
+    transition-delay: 0.1s;
+  }
+  .nav-links.active li:nth-child(2) {
+    transition-delay: 0.2s;
+  }
+  .nav-links.active li:nth-child(3) {
+    transition-delay: 0.3s;
+  }
+  .nav-links.active li:nth-child(4) {
+    transition-delay: 0.4s;
+  }
+  .nav-links.active li:nth-child(5) {
+    transition-delay: 0.5s;
+  }
+
+  .nav-links a {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--white);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease, transform 0.2s ease;
+  }
+
+  .nav-links a:hover {
+    color: var(--rose-dark);
+    transform: scale(1.05);
+  }
+
+  /* Appointment button inside mobile menu */
+  .btn-rose {
+    background: var(--white);
+    color: var(--rose-dark);
+    padding: 0.9rem 1.8rem;
+    border-radius: 50px;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+  }
+
+  .btn-rose:hover {
+    background: var(--rose-dark);
+    color: var(--white);
+    transform: translateY(-2px);
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 90vh;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .hero-content .text-1 {
+    font-size: 1.2rem;
+  }
+
+  .hero-content .text-2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-img {
+    width: 100%;
+    height: 250px;
+  }
+
+  .about-text {
+    padding: 2rem 1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .services-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 992px) {
+  .features {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .feature-img {
+    height: 250px;
+    margin-top: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .reviews-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .contact-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  h1,
+  h2,
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  section {
+    padding: 2rem 1rem;
+  }
+
+  .btn-rose {
+    padding: 0.6rem 1rem;
+    font-size: 0.9rem;
+  }
+}
+
+.select {
+  width: 100%;
+  cursor: pointer;
+  position: relative;
+  font-size: 15px;
+  color: var(--gray);
+}
+
+/* Selected box */
+.selected {
+  background: var(--beige);
+  border: 1px solid var(--taupe);
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.3s;
+}
+
+/* Arrow */
+.arrow {
+  height: 12px;
+  width: 20px;
+  fill: var(--rose-dark);
+  transition: 0.3s;
+}
+
+/* Dropdown options */
+.options {
+  display: flex;
+  flex-direction: column;
+  background: var(--white);
+  border: 1px solid var(--taupe);
+  border-radius: 8px;
+
+  /* FIXED */
+  margin: 0;
+  padding: 0;
+  position: absolute; /* float below, doesn’t push fields */
+  top: 100%;
+  left: 0;
+  width: 100%;
+
+  opacity: 0;
+  pointer-events: none; /* prevents blocking clicks when hidden */
+  transition: 0.3s;
+  z-index: 50;
+}
+
+.select:hover .options {
+  opacity: 1;
+  pointer-events: auto; /* enable interaction when visible */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.select:hover .selected .arrow {
+  transform: rotate(180deg);
+}
+
+/* Option items */
+.option {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  color: var(--gray);
+  cursor: pointer;
+  transition: 0.2s;
+  border-radius: 5px;
+  display: block;
+  box-sizing: border-box;
+}
+
+.option:hover {
+  background: var(--rose);
+  color: var(--white);
+}
+
+/* Hide radio buttons */
+.options input[type="radio"] {
+  display: none;
+}
+
+.options label::before {
+  content: attr(data-txt);
+}
+
+/* Show selected value dynamically */
+.options input[type="radio"]:checked + label {
+  display: none;
+}
+
+.select:has(#gender-default:checked) .selected::before {
+  content: attr(data-default);
+}
+.select:has(#male:checked) .selected::before {
+  content: attr(data-male);
+}
+.select:has(#female:checked) .selected::before {
+  content: attr(data-female);
+}
+.select:has(#other:checked) .selected::before {
+  content: attr(data-other);
+}
+
+/* Dynamic text for time slots */
+.select:has(#time-default:checked) .selected::before {
+  content: attr(data-default);
+}
+.select:has(#t1:checked) .selected::before {
+  content: attr(data-t1);
+}
+.select:has(#t2:checked) .selected::before {
+  content: attr(data-t2);
+}
+.select:has(#t3:checked) .selected::before {
+  content: attr(data-t3);
+}
+.select:has(#t4:checked) .selected::before {
+  content: attr(data-t4);
+}
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff; /* background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+#preloader.fade-out {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s ease;
+}
+
+/* Loader Wave */
+.loading-wave {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.loading-bar {
+  width: 20px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: var(--rose); /* change color if needed */
+  border-radius: 5px;
+  animation: loading-wave-animation 1s ease-in-out infinite;
+}
+
+.loading-bar:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.loading-bar:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.loading-bar:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+@keyframes loading-wave-animation {
+  0% {
+    height: 10px;
+  }
+  50% {
+    height: 50px;
+  }
+  100% {
+    height: 10px;
+  }
+}

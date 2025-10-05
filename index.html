@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doctor Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.png" type="image/png" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div id="preloader">
+      <div class="loading-wave">
+        <div class="loading-bar"></div>
+        <div class="loading-bar"></div>
+        <div class="loading-bar"></div>
+        <div class="loading-bar"></div>
+      </div>
+    </div>
+
+    <!-- Page Content -->
+    <div id="content" style="display: none">
+      <!-- Your whole website goes here -->
+
+      <header class="navbar">
+        <div class="logo">Dr. siddhi baria</div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+              <a href="#appointment-section" class="btn-rose"
+                >Book Appointment</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <!-- 👇 Add this here -->
+        <div class="menu-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+
+      <!-- Hero -->
+      <section class="hero">
+        <div class="overlay">
+          <div class="text-1">We are</div>
+          <div class="text-2">Caring for You</div>
+        </div>
+      </section>
+
+      <!-- About Me -->
+      <section id="about" class="about">
+        <div class="about-img"></div>
+        <div class="about-text">
+          <h5>ABOUT ME</h5>
+          <h2>DR. SIDDHI BARIA</h2>
+          <h4>BPT, MPT(Pursuing in CVRS)</h4>
+          <pre>
+            I’m Dr. Siddhi Baria, a physiotherapist with a BPT and currently
+            pursuing my MPT in Cardiovascular and Respiratory Sciences (CVRS).
+            
+            I’m deeply passionate about helping people move better and live
+            pain-free. My approach combines clinical expertise with genuine care,
+            focusing on understanding each person’s unique needs and guiding them
+            toward lasting recovery and overall well-being.
+          </pre>
+        </div>
+      </section>
+
+      <!-- Services -->
+      <section id="services" class="services">
+        <h3>MY SERVICES</h3>
+        <p class="subtitle">Comprehensive healthcare tailored for you</p>
+
+        <div class="service-grid">
+          <!-- Orthopedic Physiotherapy -->
+          <div class="service-card">
+            <div class="icon"><i class="fa-solid fa-bone"></i></div>
+            <h4>Orthopedic Physiotherapy</h4>
+            <p>
+              Bone, joint, ligament, and tendon injury management to restore
+              mobility and reduce pain.
+            </p>
+          </div>
+
+          <!-- Neurological Physiotherapy -->
+          <div class="service-card">
+            <div class="icon"><i class="fa-solid fa-brain"></i></div>
+            <h4>Neurological Physiotherapy</h4>
+            <p>
+              Rehabilitation for stroke, paralysis, Parkinson’s, and spinal cord
+              injuries to improve function.
+            </p>
+          </div>
+
+          <!-- Sports Injury Rehab -->
+          <div class="service-card">
+            <div class="icon"><i class="fa-regular fa-futbol"></i></div>
+            <h4>Sports Injury Rehabilitation</h4>
+            <p>
+              Return to play safely after sprains, strains, and surgeries with
+              sport-specific rehab plans.
+            </p>
+          </div>
+
+          <!-- Post-Surgical Rehab -->
+          <div class="service-card">
+            <div class="icon"><i class="fa-solid fa-hospital-user"></i></div>
+            <h4>Post-Surgical Rehabilitation</h4>
+            <p>
+              Personalized recovery after knee/hip replacement and spine
+              surgeries to speed healing.
+            </p>
+          </div>
+
+          <!-- Geriatric Physiotherapy -->
+          <div class="service-card">
+            <div class="icon"><i class="fa-solid fa-person-cane"></i></div>
+            <h4>Geriatric Physiotherapy</h4>
+            <p>
+              Improve balance, strength, and arthritis management for safer,
+              more confident movement.
+            </p>
+          </div>
+
+          <!-- Post Cardiac Surgery Rehab -->
+          <div class="service-card">
+            <div class="icon"><i class="fa-solid fa-heart-pulse"></i></div>
+            <h4>Post Cardiac Surgery Rehabilitation</h4>
+            <p>
+              Safe, personalized recovery program focused on restoring heart
+              strength, improving breathing, and rebuilding confidence after
+              cardiac surgery.
+            </p>
+          </div>
+
+          <!-- Women’s Health Physiotherapy -->
+          <div class="service-card">
+            <div class="icon"><i class="fa-solid fa-venus"></i></div>
+            <h4>Women’s Health Physiotherapy</h4>
+            <p>
+              Post-pregnancy recovery and pelvic floor therapy designed around
+              your specific needs.
+            </p>
+          </div>
+
+          <!-- Patient Education & Workshops -->
+          <div class="service-card">
+            <div class="icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+            <h4>Patient Education & Workshops</h4>
+            <p>
+              Free awareness sessions (back pain prevention, diabetes care,
+              women’s health), online resources (blogs, videos, guides), and
+              community health camps.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="icon"><i class="fa-solid fa-lungs"></i></div>
+            <h4>Pulmonary Rehabilitation</h4>
+            <p>
+              Improve lung function, breathing efficiency, and stamina through
+              personalized exercises and respiratory care.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Feature Section -->
+      <section id="features" class="features">
+        <div class="features-text">
+          <h2>
+            WE CAN SOOTHE YOUR ANXIETY & CREATE THE BEST PATIENT EXPERIENCE
+          </h2>
+          <div class="feature-item">
+            <i class="fa-solid fa-user-group"></i>
+            <p>When you become our patient, you become our family.</p>
+          </div>
+
+          <div class="divider"></div>
+          <div class="feature-item">
+            <i class="fa-solid fa-shield-heart"></i>
+            <p>We prioritize safety and exceptional patient care.</p>
+          </div>
+          <a href="#appointment-section" class="btn-rose"
+            >Book Your Appointment</a
+          >
+        </div>
+        <div class="features-img"></div>
+      </section>
+
+      <!-- Reviews -->
+      <!-- ================== REVIEW SECTION ================== -->
+      <section class="review-section">
+        <h2 class="section-title">REVIEWS</h2>
+        <div class="review-slider">
+          <div class="review-track">
+            <div class="review-card">
+              <div class="form-row">
+                <img src="images\r1.jpg" alt="Aarav" />
+                <h3>AARAV</h3>
+              </div>
+              <p>
+                I had constant neck pain for months and honestly lost hope. Dr.
+                Siddhi Baria explained things simply and started therapy with
+                small exercises. Within a couple of weeks I felt lighter and
+                more comfortable. She listens patiently.
+              </p>
+            </div>
+
+            <!-- 2 -->
+            <div class="review-card">
+              <div class="form-row">
+                <img src="images\r2.jpg" alt="Ananya" />
+                <h3>ANANYA</h3>
+              </div>
+              <p>
+                After my knee surgery I was scared if I’d walk properly again.
+                Dr. Siddhi Baria gave me a step-by-step plan and encouraged me
+                throughout. Slowly I gained strength and now I walk normally
+                without pain.
+              </p>
+            </div>
+
+            <!-- 3 -->
+            <div class="review-card">
+              <div class="form-row">
+                <img src="images/r3.jpg" alt="Raghunath" />
+                <h3>RAGHUNATH</h3>
+              </div>
+              <p>
+                Went to Dr. Siddhi Baria for shoulder stiffness. She explained
+                why it was happening and gave the right stretches and therapy.
+                Within a few sessions I could move my arm freely again. Really
+                happy with her treatment.
+              </p>
+            </div>
+
+            <!-- 4 -->
+            <div class="review-card">
+              <div class="form-row">
+                <img src="images/r4.jpg" alt="Isha" />
+                <h3>ISHA</h3>
+              </div>
+              <p>
+                My sciatica pain made sitting and sleeping horrible. Dr. Siddhi
+                Baria treated me with therapy and showed posture fixes and
+                stretches for daily life. The difference I feel now is huge. She
+                focuses on long-term recovery.
+              </p>
+            </div>
+
+            <!-- 5 -->
+            <div class="review-card">
+              <div class="form-row">
+                <img src="images/r5.jpg" alt="Devendra" />
+                <h3>DEVENDRA</h3>
+              </div>
+              <p>
+                My mom had severe knee pain due to arthritis. Dr. Siddhi Baria
+                treated her patiently and gave simple exercises she can do at
+                home. In a month she’s walking comfortably. We’re very thankful
+                for her care.
+              </p>
+            </div>
+
+            <!-- 6 -->
+            <div class="review-card">
+              <div class="form-row">
+                <img src="images/r6.jpg" alt="Priya" />
+                <h3>PRIYA</h3>
+              </div>
+              <p>
+                Long hours at work gave me constant back pain. Dr. Siddhi Baria
+                figured it out quickly and treated me with therapy plus small
+                stretches I can do at my desk. Pain is almost gone now.
+              </p>
+            </div>
+
+            <!-- 7 -->
+            <div class="review-card">
+              <div class="form-row">
+                <img src="images/r7.jpg" alt="Vikram" />
+                <h3>VIKRAM</h3>
+              </div>
+              <p>
+                I had a bad ankle injury from sports and it wouldn’t heal. Dr.
+                Siddhi Baria made a recovery plan with therapy and
+                strengthening. She explained everything clearly and kept me
+                motivated. I can finally play again without pain.
+              </p>
+            </div>
+
+            <!-- 8 -->
+            <div class="review-card">
+              <div class="form-row">
+                <img src="images/r8.jpg" alt="Savitri" />
+                <h3>SAVITRI</h3>
+              </div>
+              <p>
+                Frozen shoulder made daily tasks tough. Dr. Siddhi Baria gave me
+                progressive exercises and therapy, adjusting as I improved. Each
+                week I could see the difference. Now I have my shoulder movement
+                back almost fully.
+              </p>
+            </div>
+
+            <!-- 9 -->
+            <div class="review-card">
+              <div class="form-row">
+                <img src="images/r9.jpg" alt="Kabir" />
+                <h3>KABIR</h3>
+              </div>
+              <p>
+                I went to Dr. Siddhi Baria for lower back pain. She not only
+                treated it but also taught me how to prevent it with posture
+                correction and simple stretches. In a few weeks my pain reduced
+                a lot. Life feels much easier now.
+              </p>
+            </div>
+
+            <!-- 10 -->
+            <div class="review-card">
+              <div class="form-row">
+                <img src="images/r10.jpg" alt="Anika" />
+                <h3>ANIKA</h3>
+              </div>
+              <p>
+                My father needed physiotherapy after a minor stroke. Dr. Siddhi
+                Baria was extremely patient with him and encouraged him every
+                step. We noticed steady progress in his movement and confidence.
+                Truly grateful for her support.
+              </p>
+            </div>
+
+            <!-- 11 -->
+            <div class="review-card">
+              <div class="form-row">
+                <img src="images/r11.jpg" alt="Ramesh" />
+                <h3>RAMESH</h3>
+              </div>
+              <p>
+                Neck stiffness was making work difficult. Dr. Siddhi Baria
+                provided simple exercises and careful therapy. Within weeks, I
+                felt significant relief. Highly recommended!
+              </p>
+            </div>
+
+            <!-- 12 -->
+            <div class="review-card">
+              <div class="form-row">
+                <img src="images/r12.jpg" alt="Meera" />
+                <h3>MEERA</h3>
+              </div>
+              <p>
+                Post-surgery recovery seemed scary, but Dr. Siddhi Baria guided
+                me step by step. I regained mobility and confidence. Her care is
+                truly remarkable.
+              </p>
+            </div>
+
+            <!-- 13 -->
+            <div class="review-card">
+              <div class="form-row">
+                <img src="images/r13.jpg" alt="Sahil" />
+                <h3>SAHIL</h3>
+              </div>
+              <p>
+                Shoulder pain affected my sports activity. Dr. Siddhi Baria’s
+                therapy and exercises helped me recover completely. Patient and
+                knowledgeable doctor.
+              </p>
+            </div>
+
+            <!-- 14 -->
+            <div class="review-card">
+              <div class="form-row">
+                <img src="images\r14.jpg" alt="Rukmini" />
+                <h3>RUKMINI</h3>
+              </div>
+              <p>
+                Sciatica pain was unbearable. Dr. Siddhi Baria not only treated
+                me but taught stretches for daily life. My pain reduced
+                dramatically, and I can sit and sleep comfortably now.
+              </p>
+            </div>
+
+            <!-- 15 -->
+            <div class="review-card">
+              <div class="form-row">
+                <img src="images/r15.jpg" alt="Manav" />
+                <h3>MANAV</h3>
+              </div>
+              <p>
+                Severe knee pain prevented my mother from walking. Dr. Siddhi
+                Baria’s simple at-home exercises helped her recover in just a
+                month. Grateful for her patience and guidance.
+              </p>
+            </div>
+
+            <!-- 16 -->
+            <div class="review-card">
+              <div class="form-row">
+                <img src="images/r16.jpg" alt="Tara" />
+                <h3>TARA</h3>
+              </div>
+              <p>
+                Back pain from long office hours was making life hard. Therapy
+                and practical advice from Dr. Siddhi Baria brought quick relief.
+                Highly effective treatment.
+              </p>
+            </div>
+
+            <!-- 17 -->
+            <div class="review-card">
+              <div class="form-row">
+                <img src="images/r17.jpg" alt="Kunal" />
+                <h3>KUNAL</h3>
+              </div>
+              <p>
+                Sports ankle injury was persistent. Dr. Siddhi Baria’s
+                structured recovery plan worked perfectly. Now I can play again
+                without worry.
+              </p>
+            </div>
+
+            <!-- 18 -->
+            <div class="review-card">
+              <div class="form-row">
+                <img src="images\r18.jpg" alt="Anjali" />
+                <h3>ANJALI</h3>
+              </div>
+              <p>
+                Frozen shoulder therapy from Dr. Siddhi Baria was progressive
+                and effective. My shoulder movement is back and daily tasks are
+                easier now.
+              </p>
+            </div>
+
+            <!-- 19 -->
+            <div class="review-card">
+              <div class="form-row">
+                <img src="images\r19.jpg" alt="Raghav" />
+                <h3>RAGHAV</h3>
+              </div>
+              <p>
+                Lower back pain relief was quick thanks to Dr. Siddhi Baria. She
+                also taught posture correction techniques. Very practical and
+                effective treatment.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact & Appointment -->
+      <section class="contact-container">
+        <!-- Left: Contact Info -->
+        <div class="contact" id="contact">
+          <h3>CONTACT US</h3>
+          <div class="contact-info">
+            <p><i class="fa-solid fa-phone"></i> +91 98765 43210</p>
+            <p><i class="fa-solid fa-envelope"></i> drsiddhibaria@gmail.com</p>
+            <p>
+              <i class="fa-solid fa-location-dot"></i> only home visit available
+              in ( Mumbai , Navi Mumbai)
+            </p>
+          </div>
+
+          <!-- From Uiverse.io by elisapi -->
+          <div class="card">
+            <a
+              class="socialContainer containerOne"
+              href="https://www.instagram.com/dr_baria_siddhi?igsh=czlnMTl4b2E3bml5"
+            >
+              <svg viewBox="0 0 16 16" class="socialSvg instagramSvg">
+                <path
+                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                ></path>
+              </svg>
+            </a>
+
+            <a class="socialContainer containerTwo" href="tel:+91 90824 10241">
+              <svg viewBox="0 0 24 24" class="socialSvg callSvg">
+                <path
+                  d="M6.62 10.79a15.053 15.053 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.11-.21 11.72 11.72 0 0 0 3.67.59 1 1 0 0 1 1 1v3.5a1 1 0 0 1-1 1A16 16 0 0 1 3 5a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.72 11.72 0 0 0 .59 3.67 1 1 0 0 1-.21 1.11l-2.26 2.01z"
+                />
+              </svg>
+            </a>
+
+            <a
+              class="socialContainer containerThree"
+              href="https://www.linkedin.com/in/dr-siddhi-baria-60b3b4338?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            >
+              <svg viewBox="0 0 448 512" class="socialSvg linkdinSvg">
+                <path
+                  d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <section class="appointment-section" id="appointment-section">
+          <h2>Book Your Appointment</h2>
+
+          <form
+            class="appointment-form"
+            action="https://sheetdb.io/api/v1/93movcaj28pb6"
+            method="POST"
+            id="appointmentForm"
+          >
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName"></label>
+                <input
+                  type="text"
+                  id="firstName"
+                  name="firstName"
+                  required
+                  placeholder="Enter your first name"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="lastName"></label>
+                <input
+                  type="text"
+                  id="lastName"
+                  name="lastName"
+                  required
+                  placeholder="Enter your last name"
+                />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <!-- Age -->
+              <div class="form-group">
+                <label for="age"></label>
+                <input
+                  type="number"
+                  id="age"
+                  name="age"
+                  required
+                  placeholder="Enter your age"
+                  min="1"
+                />
+              </div>
+
+              <!-- Gender -->
+              <div class="form-group">
+                <div class="select">
+                  <div
+                    class="selected"
+                    data-default="Select Gender"
+                    data-male="Male"
+                    data-female="Female"
+                    data-other="Other"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="1em"
+                      viewBox="0 0 512 512"
+                      class="arrow"
+                    >
+                      <path
+                        d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 
+              0-45.3s-32.8-12.5-45.3 0L256 338.7 
+              86.6 169.4c-12.5-12.5-32.8-12.5-45.3 
+              0s-12.5 32.8 0 45.3l192 192z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="options">
+                    <div>
+                      <input
+                        id="gender-default"
+                        name="gender"
+                        type="radio"
+                        checked
+                      />
+                      <label
+                        class="option"
+                        for="gender-default"
+                        data-txt="-- Select Gender --"
+                      ></label>
+                    </div>
+                    <div>
+                      <input
+                        id="male"
+                        name="gender"
+                        type="radio"
+                        value="Male"
+                      />
+                      <label class="option" for="male" data-txt="Male"></label>
+                    </div>
+                    <div>
+                      <input
+                        id="female"
+                        name="gender"
+                        type="radio"
+                        value="Female"
+                      />
+                      <label
+                        class="option"
+                        for="female"
+                        data-txt="Female"
+                      ></label>
+                    </div>
+                    <div>
+                      <input
+                        id="other"
+                        name="gender"
+                        type="radio"
+                        value="Other"
+                      />
+                      <label
+                        class="option"
+                        for="other"
+                        data-txt="Other"
+                      ></label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <!-- Email -->
+              <div class="form-group">
+                <label for="email"></label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder="Enter your email"
+                />
+              </div>
+
+              <!-- Phone -->
+              <div class="form-group">
+                <label for="phone"></label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  required
+                  placeholder="Enter your phone no"
+                />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <!-- Appointment Date -->
+              <!-- Date -->
+              <div class="form-group">
+                <label for="date"></label>
+                <input
+                  id="date"
+                  name="date"
+                  type="date"
+                  placeholder="Select date"
+                  required
+                />
+              </div>
+
+              <!-- Time -->
+              <div class="form-group">
+                <div class="select">
+                  <div
+                    class="selected"
+                    data-default="Select Time"
+                    data-t1="11:00 AM"
+                    data-t2="1:00 PM"
+                    data-t3="6:00 PM"
+                    data-t4="8:00 PM"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="1em"
+                      viewBox="0 0 512 512"
+                      class="arrow"
+                    >
+                      <path
+                        d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 
+        0-45.3s-32.8-12.5-45.3 0L256 338.7 
+        86.6 169.4c-12.5-12.5-32.8-12.5-45.3 
+        0s-12.5 32.8 0 45.3l192 192z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="options">
+                    <div>
+                      <input
+                        id="time-default"
+                        name="time"
+                        type="radio"
+                        checked
+                      />
+                      <label
+                        class="option"
+                        for="time-default"
+                        data-txt="-- Select Time --"
+                      ></label>
+                    </div>
+                    <div>
+                      <input
+                        id="t1"
+                        name="time"
+                        type="radio"
+                        value="11:00 AM"
+                      />
+                      <label
+                        class="option"
+                        for="t1"
+                        data-txt="11:00 AM"
+                      ></label>
+                    </div>
+                    <div>
+                      <input id="t2" name="time" type="radio" value="1:00 PM" />
+                      <label class="option" for="t2" data-txt="1:00 PM"></label>
+                    </div>
+                    <div>
+                      <input id="t3" name="time" type="radio" value="6:00 PM" />
+                      <label class="option" for="t3" data-txt="6:00 PM"></label>
+                    </div>
+                    <div>
+                      <input id="t4" name="time" type="radio" value="8:00 PM" />
+                      <label class="option" for="t4" data-txt="8:00 PM"></label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Submit -->
+            <button type="submit" class="btn-submit">Book Appointment</button>
+          </form>
+
+          <!-- Success Message -->
+          <div id="successMessage" class="success-message">
+            ✅ Thank you! Your appointment has been booked.
+          </div>
+        </section>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <p>© 2025 Dr. Macey Cartrite. All Rights Reserved.</p>
+      </footer>
+
+      <!-- GSAP + ScrollTrigger -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
